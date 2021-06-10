@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
-import classNames from 'classnames';
-import { SectionProps } from '../../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
-import Image from '../elements/Image';
-import Modal from '../elements/Modal';
+import React, { useState } from "react";
+import classNames from "classnames";
+import { SectionProps } from "../../utils/SectionProps";
+import ButtonGroup from "../elements/ButtonGroup";
+import Button from "../elements/Button";
+import Image from "../elements/Image";
+import Modal from "../elements/Modal";
 
 const propTypes = {
-  ...SectionProps.types
-}
+  ...SectionProps.types,
+};
 
 const defaultProps = {
-  ...SectionProps.defaults
-}
+  ...SectionProps.defaults,
+};
 
 const Hero = ({
   className,
@@ -24,62 +24,94 @@ const Hero = ({
   invertColor,
   ...props
 }) => {
-
   const [videoModalActive, setVideomodalactive] = useState(false);
 
   const openModal = (e) => {
     e.preventDefault();
     setVideomodalactive(true);
-  }
+  };
 
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
-  }   
+  };
 
   const outerClasses = classNames(
-    'hero section center-content',
-    topOuterDivider && 'has-top-divider',
-    bottomOuterDivider && 'has-bottom-divider',
-    hasBgColor && 'has-bg-color',
-    invertColor && 'invert-color',
+    "hero section center-content",
+    topOuterDivider && "has-top-divider",
+    bottomOuterDivider && "has-bottom-divider",
+    hasBgColor && "has-bg-color",
+    invertColor && "invert-color",
     className
   );
 
   const innerClasses = classNames(
-    'hero-inner section-inner',
-    topDivider && 'has-top-divider',
-    bottomDivider && 'has-bottom-divider'
+    "hero-inner section-inner",
+    topDivider && "has-top-divider",
+    bottomDivider && "has-bottom-divider"
   );
 
   return (
-    <section
-      {...props}
-      className={outerClasses}
-    >
+    <section {...props} className={outerClasses}>
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+            <h1
+              className="mt-0 mb-16 reveal-from-bottom"
+              data-reveal-delay="200"
+            >
+              Michael Bussert
+            </h1>
+            <h1
+              className="mt-0 mb-16 reveal-from-bottom text-color-primary"
+              data-reveal-delay="200"
+            >
+              Web Developer
             </h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
-                </p>
+              <p
+                className="m-0 mb-32 reveal-from-bottom"
+                data-reveal-delay="400"
+              >
+                I help clients deliver their brands, products, and ideas to the
+                world. I can also make a mean mac & cheese.
+              </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get started
-                    </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
-                    </Button>
+                  <Button tag="a" color="primary" wideMobile href="#portfolio">
+                    See My Work
+                  </Button>
+                  <Button
+                    tag="a"
+                    color="dark"
+                    wideMobile
+                    href="https://github.com/mbussert"
+                  >
+                    View Github
+                  </Button>
                 </ButtonGroup>
+                <div
+                  className="m-0 mt-32 reveal-from-bottom "
+                  data-reveal-delay="500"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="64"
+                    height="64"
+                    viewBox="0 0 24 24"
+                    className="arrow-color"
+                  >
+                    <path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-17 1h4v-8h2v8h4l-5 6-5-6z" />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+          <div
+            className="hero-figure reveal-from-bottom illustration-element-01"
+            data-reveal-value="20px"
+            data-reveal-delay="800"
+          >
             <a
               data-video="https://player.vimeo.com/video/174002812"
               href="#0"
@@ -88,10 +120,11 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require("./../../assets/images/video-placeholder.jpg")}
                 alt="Hero"
                 width={896}
-                height={504} />
+                height={504}
+              />
             </a>
           </div>
           <Modal
@@ -99,12 +132,13 @@ const Hero = ({
             show={videoModalActive}
             handleClose={closeModal}
             video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
+            videoTag="iframe"
+          />
         </div>
       </div>
     </section>
   );
-}
+};
 
 Hero.propTypes = propTypes;
 Hero.defaultProps = defaultProps;
