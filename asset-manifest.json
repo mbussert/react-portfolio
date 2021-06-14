@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e9b0540d.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.263f3bbc.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.263f3bbc.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
+    "static/js/2.0e38dc01.chunk.js": "/react-portfolio/static/js/2.0e38dc01.chunk.js",
+    "static/js/2.0e38dc01.chunk.js.map": "/react-portfolio/static/js/2.0e38dc01.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.2471cd146d4d5a95db288b9d1361667d.js": "/react-portfolio/precache-manifest.2471cd146d4d5a95db288b9d1361667d.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.e9b0540d.chunk.css.map": "/react-portfolio/static/css/main.e9b0540d.chunk.css.map",
+    "static/js/2.0e38dc01.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.0e38dc01.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-logo.svg": "/react-portfolio/static/media/bootstrap-logo.d42cdb53.svg",
+    "static/media/budgettracker.png": "/react-portfolio/static/media/budgettracker.37ebf316.png",
+    "static/media/css-logo.svg": "/react-portfolio/static/media/css-logo.79afcf47.svg",
+    "static/media/style.scss": "/react-portfolio/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/empdir.png": "/react-portfolio/static/media/empdir.bfbded94.png",
+    "static/media/expressjs-logo.svg": "/react-portfolio/static/media/expressjs-logo.9de32921.svg",
+    "static/media/fitnesstracker.png": "/react-portfolio/static/media/fitnesstracker.c6dfaaa9.png",
+    "static/media/giftez.png": "/react-portfolio/static/media/giftez.c5058126.png",
+    "static/media/github-logo.svg": "/react-portfolio/static/media/github-logo.aff33068.svg",
+    "static/media/html5-logo.svg": "/react-portfolio/static/media/html5-logo.9f2e1637.svg",
+    "static/media/insure.png": "/react-portfolio/static/media/insure.592087c1.png",
+    "static/media/js-logo.svg": "/react-portfolio/static/media/js-logo.9c8b1450.svg",
+    "static/media/mongodb-logo.svg": "/react-portfolio/static/media/mongodb-logo.554c7d4b.svg",
+    "static/media/mysql-logo.svg": "/react-portfolio/static/media/mysql-logo.78d3a4b1.svg",
+    "static/media/nodejs-logo.svg": "/react-portfolio/static/media/nodejs-logo.5c376133.svg",
+    "static/media/reactjs-logo.svg": "/react-portfolio/static/media/reactjs-logo.70384772.svg",
+    "static/media/sass-logo.svg": "/react-portfolio/static/media/sass-logo.705dcdcf.svg",
+    "static/media/tailwind-logo.svg": "/react-portfolio/static/media/tailwind-logo.760a3ee4.svg",
+    "static/media/techblog.png": "/react-portfolio/static/media/techblog.a89839c6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.213b1880.js",
+    "static/js/2.0e38dc01.chunk.js",
+    "static/css/main.e9b0540d.chunk.css",
+    "static/js/main.263f3bbc.chunk.js"
+  ]
+}
