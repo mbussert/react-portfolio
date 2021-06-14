@@ -49,7 +49,10 @@ const FeaturesTiles = ({
 
   return (
     <section {...props} className={outerClasses}>
-      <div className="container has-top-divider reveal-from-bottom">
+      <div
+        className="container has-top-divider reveal-from-bottom"
+        id={"experience"}
+      >
         <div className={innerClasses}>
           <SectionHeader
             data={sectionHeader}

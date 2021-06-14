@@ -9,7 +9,9 @@ const Logo = ({ className, ...props }) => {
   return (
     <div {...props} className={classes}>
       <h1 className="m-0">
-        <Link to="#home">MB</Link>
+        <Link to="#home" onClick={() => window.location.replace("/#home")}>
+          MB
+        </Link>
       </h1>
     </div>
   );

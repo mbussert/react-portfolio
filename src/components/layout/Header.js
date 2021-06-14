@@ -57,6 +57,26 @@ const Header = ({
     setIsactive(false);
   };
 
+  function linkHome() {
+    closeMenu();
+    window.location.replace("/#home");
+  }
+
+  function linkExperience() {
+    closeMenu();
+    window.location.replace("/#experience");
+  }
+
+  function linkPortfolio() {
+    closeMenu();
+    window.location.replace("/#portfolio");
+  }
+
+  function linkContact() {
+    closeMenu();
+    window.location.replace("/#contact");
+  }
+
   const keyPress = (e) => {
     isActive && e.keyCode === 27 && closeMenu();
   };
@@ -80,7 +100,7 @@ const Header = ({
 
   return (
     <header {...props} className={classes}>
-      <div className="container">
+      <div className="container" id={"home"}>
         <div
           className={classNames(
             "site-header-inner",
@@ -112,17 +132,17 @@ const Header = ({
                     )}
                   >
                     <li>
-                      <Link to="#home" onClick={closeMenu}>
+                      <Link to="#home" onClick={linkHome}>
                         Home
                       </Link>
                     </li>
                     <li>
-                      <Link to="#about" onClick={closeMenu}>
-                        About
+                      <Link to="#experience" onClick={linkExperience}>
+                        Experience
                       </Link>
                     </li>
                     <li>
-                      <Link to="#portfolio" onClick={closeMenu}>
+                      <Link to="#portfolio" onClick={linkPortfolio}>
                         Portfolio
                       </Link>
                     </li>
@@ -133,7 +153,7 @@ const Header = ({
                         <Link
                           to="#contact"
                           className="button button-primary button-wide-mobile button-sm"
-                          onClick={closeMenu}
+                          onClick={linkContact}
                         >
                           Contact
                         </Link>
