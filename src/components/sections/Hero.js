@@ -57,7 +57,7 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1
-              className="mt-0 mb-16 reveal-from-bottom"
+              className="mt-5 mb-16 reveal-from-bottom"
               data-reveal-delay="200"
             >
               Michael Bussert
@@ -95,7 +95,7 @@ const Hero = ({
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    View Github
+                    View GitHub
                   </Button>
                 </ButtonGroup>
                 <div

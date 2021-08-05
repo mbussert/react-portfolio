@@ -1,6 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 import { Link } from "react-router-dom";
+import Pdf from "../../../assets/resume/michael-bussert-resume.pdf";
 
 const FooterNav = ({ className, ...props }) => {
   const classes = classNames("footer-nav", className);
@@ -22,7 +23,9 @@ const FooterNav = ({ className, ...props }) => {
           </Link>
         </li>
         <li>
-          <Link to="/MichaelBussert-Resume.pdf">Resume</Link>
+          <Link to={Pdf} target="_blank">
+            Resume
+          </Link>
         </li>
         <li>
           <Link
