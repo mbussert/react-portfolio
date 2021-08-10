@@ -68,6 +68,59 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Full Stack React Application
+                </div>
+                <h3 className="mt-0 mb-12">
+                  WallPro (Partnership with Shaw-PPC)
+                </h3>
+                <p className="m-0">
+                  The application assists clients in calculating square footage
+                  measurements for wall installation material deliverables on
+                  behalf of the design company, Shaw-PPC. The average user will
+                  be able to utilize the calculator tool to place product
+                  orders, save their account info to view order history, and
+                  notify the administration team of their new orders.
+                </p>
+                <div className="text-color-primary fw-600 tt-u mt-8">
+                  <a
+                    href="https://wall-pro.herokuapp.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                  <span> | </span>
+                  <a
+                    href="https://github.com/mbussert/shaw-ppc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Repository
+                  </a>
+                </div>
+              </div>
+              <div
+                className={classNames(
+                  "split-item-image center-content-mobile reveal-from-bottom",
+                  imageFill && "split-item-image-fill"
+                )}
+                data-reveal-container=".split-item"
+              >
+                <Image
+                  src={require("./../../assets/images/portfolio-imgs/wallpro.png")}
+                  alt="Employee Directory"
+                  width={528}
+                  height={396}
+                />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div
+                className="split-item-content center-content-mobile reveal-from-left"
+                data-reveal-container=".split-item"
+              >
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   React.js Powered
                 </div>
                 <h3 className="mt-0 mb-12">Employee Directory</h3>
