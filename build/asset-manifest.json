@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.fe346ca0.chunk.css",
-    "main.js": "/static/js/main.3ddd0589.chunk.js",
-    "main.js.map": "/static/js/main.3ddd0589.chunk.js.map",
+    "main.js": "/static/js/main.87d7e142.chunk.js",
+    "main.js.map": "/static/js/main.87d7e142.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e312f208.js",
     "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
     "static/js/2.efa49209.chunk.js": "/static/js/2.efa49209.chunk.js",
     "static/js/2.efa49209.chunk.js.map": "/static/js/2.efa49209.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ffb124a815fbe4eca80a68699a6dac74.js": "/precache-manifest.ffb124a815fbe4eca80a68699a6dac74.js",
+    "precache-manifest.8b7763124a0630f29969c216a6a491ef.js": "/precache-manifest.8b7763124a0630f29969c216a6a491ef.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.fe346ca0.chunk.css.map": "/static/css/main.fe346ca0.chunk.css.map",
     "static/js/2.efa49209.chunk.js.LICENSE.txt": "/static/js/2.efa49209.chunk.js.LICENSE.txt",
@@ -31,12 +31,13 @@
     "static/media/reactjs-logo.svg": "/static/media/reactjs-logo.70384772.svg",
     "static/media/sass-logo.svg": "/static/media/sass-logo.705dcdcf.svg",
     "static/media/tailwind-logo.svg": "/static/media/tailwind-logo.760a3ee4.svg",
-    "static/media/techblog.png": "/static/media/techblog.a89839c6.png"
+    "static/media/techblog.png": "/static/media/techblog.a89839c6.png",
+    "static/media/wallpro.png": "/static/media/wallpro.669e3639.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e312f208.js",
     "static/js/2.efa49209.chunk.js",
     "static/css/main.fe346ca0.chunk.css",
-    "static/js/main.3ddd0589.chunk.js"
+    "static/js/main.87d7e142.chunk.js"
   ]
 }
