@@ -68,6 +68,58 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  React via Next.js
+                </div>
+                <h3 className="mt-0 mb-12">Hulu Clone</h3>
+                <p className="m-0">
+                  A clone of the popular streaming service, Hulu. This ongoing
+                  project is built using React, Next.js, Tailwind CSS, and
+                  Flipmove. The application is completely responsive and will
+                  fit mobile devices as well as 4k or wide-screen monitors.
+                  Custom screen-breaks were utilized to ensure a full suite of
+                  screen sizes are accommodated. The app itself is deployed on
+                  Vercel.
+                </p>
+                <div className="text-color-primary fw-600 tt-u mt-8">
+                  <a
+                    href="https://hulu-clone-one-iota.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                  <span> | </span>
+                  <a
+                    href="https://github.com/mbussert/hulu-clone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Repository
+                  </a>
+                </div>
+              </div>
+              <div
+                className={classNames(
+                  "split-item-image center-content-mobile reveal-from-bottom",
+                  imageFill && "split-item-image-fill"
+                )}
+                data-reveal-container=".split-item"
+              >
+                <Image
+                  src={require("./../../assets/images/portfolio-imgs/hulu.png")}
+                  alt="Hulu Clone"
+                  width={528}
+                  height={396}
+                />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div
+                className="split-item-content center-content-mobile reveal-from-left"
+                data-reveal-container=".split-item"
+              >
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Full Stack React Application
                 </div>
                 <h3 className="mt-0 mb-12">
