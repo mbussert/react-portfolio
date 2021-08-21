@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.fe346ca0.chunk.css",
-    "main.js": "/static/js/main.87d7e142.chunk.js",
-    "main.js.map": "/static/js/main.87d7e142.chunk.js.map",
+    "main.js": "/static/js/main.636b4801.chunk.js",
+    "main.js.map": "/static/js/main.636b4801.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e312f208.js",
     "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
     "static/js/2.efa49209.chunk.js": "/static/js/2.efa49209.chunk.js",
     "static/js/2.efa49209.chunk.js.map": "/static/js/2.efa49209.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8b7763124a0630f29969c216a6a491ef.js": "/precache-manifest.8b7763124a0630f29969c216a6a491ef.js",
+    "precache-manifest.7841b2807d3ca887888516fab4825d2a.js": "/precache-manifest.7841b2807d3ca887888516fab4825d2a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.fe346ca0.chunk.css.map": "/static/css/main.fe346ca0.chunk.css.map",
     "static/js/2.efa49209.chunk.js.LICENSE.txt": "/static/js/2.efa49209.chunk.js.LICENSE.txt",
@@ -22,6 +22,7 @@
     "static/media/giftez.png": "/static/media/giftez.c5058126.png",
     "static/media/github-logo.svg": "/static/media/github-logo.aff33068.svg",
     "static/media/html5-logo.svg": "/static/media/html5-logo.9f2e1637.svg",
+    "static/media/hulu.png": "/static/media/hulu.2f9e2475.png",
     "static/media/insure.png": "/static/media/insure.592087c1.png",
     "static/media/js-logo.svg": "/static/media/js-logo.9c8b1450.svg",
     "static/media/michael-bussert-resume.pdf": "/static/media/michael-bussert-resume.64bf5396.pdf",
@@ -38,6 +39,6 @@
     "static/js/runtime-main.e312f208.js",
     "static/js/2.efa49209.chunk.js",
     "static/css/main.fe346ca0.chunk.css",
-    "static/js/main.87d7e142.chunk.js"
+    "static/js/main.636b4801.chunk.js"
   ]
 }

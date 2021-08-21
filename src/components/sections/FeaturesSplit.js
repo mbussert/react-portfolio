@@ -78,7 +78,7 @@ const FeaturesSplit = ({
                   fit mobile devices as well as 4k or wide-screen monitors.
                   Custom screen-breaks were utilized to ensure a full suite of
                   screen sizes are accommodated. The app itself is deployed on
-                  Vercel.
+                  Vercel and utilizes The Movie Database (TMDB).
                 </p>
                 <div className="text-color-primary fw-600 tt-u mt-8">
                   <a
